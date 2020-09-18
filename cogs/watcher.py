@@ -50,7 +50,7 @@ class AppleTVWatcher(commands.Cog):
         # which guild to post to depending on if we're prod or dev
         # post update to channel
         guild_ids = {
-            457980242317934613: "software-updates",
+            457980242317934613: "software-update",
             525250440212774912: "apple-tv",
             372449430495821825: "apple-tv"
         }
