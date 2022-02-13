@@ -1,7 +1,9 @@
 import discord
 import os
 from discord.ext import commands
+from dotenv import load_dotenv
 
+load_dotenv()
 
 async def on_message(self, message):
     print('Message from {0.author}: {0.content}'.format(message))

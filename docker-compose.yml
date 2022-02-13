@@ -1,0 +1,6 @@
+services:
+  appletv:
+    build:
+      context: .
+      dockerfile: Dockerfile.production
+    restart: unless-stopped
